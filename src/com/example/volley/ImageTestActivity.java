@@ -16,7 +16,6 @@ import java.lang.ref.WeakReference;
 /**
  * ImageLoader使用举例
  * 
- * @author panxw
  *
  */
 public class ImageTestActivity extends Activity {
