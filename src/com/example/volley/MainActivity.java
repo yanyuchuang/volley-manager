@@ -1,25 +1,10 @@
 package com.example.volley;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-
-import android.annotation.SuppressLint;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.NetworkResponse;
-import com.android.volley.Request;
-import com.android.volley.Request.Method;
-import com.android.volley.Response;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
@@ -33,13 +18,7 @@ import com.android.volley.toolbox.StringRequest;
  */
 public class MainActivity extends Activity{
 
-	private static final String GET_URL = "http://www.panxw.com/about.html";
-
-	private static final String POST_URL = "http://www.panxw.com/index.php";
-
-	private static final String POST_JSON = "{\"action\":\"test\", \"info\":\"hello world\"}";
-
-
+	private static final String GET_URL = "http://www.baidu.com";
 
 
 	@Override
@@ -48,8 +27,6 @@ public class MainActivity extends Activity{
 		setContentView(R.layout.activity_main);
 
 		this.testGet();
-//		this.testPost();
-//		startActivity(new Intent(MainActivity.this, ImageTestActivity.class));
 	}
 	
 	Listener<String> mStringListener = new Listener<String>(){
