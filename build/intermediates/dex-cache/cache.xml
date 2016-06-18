@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/san/Development/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_ec15da490ad4e0fbd618e7f66eb9520256d4136c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a3c5a8c06164e3ebe6b42da1103fcbad6938bcf3">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d936dc8a7d9f21345b39b597d60b04ef8c001ada/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_3afc6b80527b1ee716a5aa02e638fe6a3db449bf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_bd6a0a5ab6f12faeb79a2a57757c2cd7c3c60ce5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ff424c7308169e56e73f9007e07423dec4b41ee3">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0e98f90c5baf670dfff85d621553e54dfed36479/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_e0834699f287a3768c6b92e21fa6522e87af0824/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_61658747801639eae3989ab15e62af3f9a39f5c3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/san/projects/luna/volley-manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/san/projects/luna/volley-manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_6ffc4774f3ef4438b3fb066912219e9aa74567f9/classes.dex" />
+    </item>
+
+</items>
