@@ -1,4 +1,5 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
@@ -6,7 +7,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId "com.example.volley"
+//        applicationId "com.example.volley"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
@@ -40,4 +41,16 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'org.apache:apache:18'
+}
+
+task makeJar(type: Copy){
+    from('build/intermediates/bundles/debug')
+    into('build/outputs')
+    include('classes.jar')
+    rename('classes.jar','volley.jar')
+    into('release/')//jar export path
+}
+
+task clearJar(type: Delete){
+    delete 'build/libs/volley.jar'
 }
